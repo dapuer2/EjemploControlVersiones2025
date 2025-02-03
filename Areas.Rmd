@@ -1,0 +1,20 @@
+---
+title: "Areas"
+author: "David Puertes Santonja"
+date: "2025-02-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+r<- 5 
+# Calcular el área
+area <- pi * r^2
+
+# Mostrar el resultado
+area
+```
+
