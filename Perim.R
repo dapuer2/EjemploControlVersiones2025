@@ -14,6 +14,6 @@ calcular_area_trapecio <- function(b, B, H) {
 
 # Función para calcular el perímetro de un rectángulo
 calcular_perimetro_rectangulo <- function(L, I) {
-  perimetro <- 2 * L + 2*I
+  perimetro <- (L +I)*2
   return(perimetro)
 }
